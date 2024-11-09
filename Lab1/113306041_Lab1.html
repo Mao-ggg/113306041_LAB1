@@ -6,65 +6,72 @@
 	<title></title>
 </head>
 <body>
-	<table border ="1" style ="width:50%">
-		<tr>
-			<th colspan ="3" align ="center">About--113306041</th>
-		</tr>
-		<tr>
-			<th rowspan="3"><img src="123.png" alt="monbao" width="220" height="125"><br>personal picture</th>
-			<th colspan="2">Name:
-				<input type ="text" name ="name" size ="25" maxlength= "30"><br>
-				Gender:<input type ="radio" name ="gender" value ="male">Male<input type ="radio" name ="gender" value="female">Female<input type ="radio" name ="other" value ="other">Other
-			</th>
-		</tr>
-		<tr>
-			<th>County:
-				<select name="county">
-					<option value="Taipei">Taipei</option>
-					<option value="Tainan">Tainan</option>
-					<option value="Taichung">Taichung</option>
-					<option value="Taoyuan">Taoyuan</option>
-				</select>
-			</th>
-			<th>Birthday:
-				<input type="date" id="Birthday" name="Birthday" value="Birthday" min="1960-01-01" max="2024-11-08">
-			</th>
-		</tr>
-		<tr>
-			<th colspan="2">E-mail:<input type="text" name="email" value="email" size="25" maxlength="30"></th>
-		</tr>
-		<tr>
-			<th>Hobby</th>
-			<th colspan="2">
-				<input type="checkbox" name="hobby" value="hobby">Swimming
-				<input type="checkbox" name="hobby" value="hobby">Vollyball
-				<input type="checkbox" name="hobby" value="hobby">Movie
-				<input type="checkbox" name="hobby" value="hobby">Game
-				<input type="checkbox" name="hobby" value="hobby">sleep
-			</th>
-		</tr>
-		<tr>
-			<th>Skill</th>
-			<th colspan="2">
-				<input type="checkbox" name="skill" value="skill">Java
-				<input type="checkbox" name="skill" value="skill">HTML
-				<input type="checkbox" name="skill" value="skill">Python
-				<input type="checkbox" name="skill" value="skill">Microsoft Office
-				<input type="checkbox" name="skill" value="skill">Premiere
-			</th>
-		</tr>
-		<tr>
-			<th>Say Somthing</th>
-			<th colspan="2">
-				<textarea rows="5" cols="60" placeholder="Say somthing here."></textarea>
-			</th>
-		</tr>
+	<form>
+		<table border ="1" style ="width:50%">
+			<tr>
+				<th colspan ="3" style="text-align: center;">About--113306041</th>
+			</tr>
+			<tr>
+				<th rowspan="3"><img src="123.png" alt="monbao" width="220" height="125"><br>personal picture</th>
+				<th colspan="2">Name:
+					<input type ="text" name ="name" size ="25" maxlength= "30"><br>
+					Gender:<input type ="radio" name ="gender" value ="male">Male<input type ="radio" name ="gender" value="female">Female<input type ="radio" name ="other" value ="other">Other
+				</th>
+			</tr>
+			<tr>
+				<th>County:
+					<select name="county">
+						<option value="Taipei">Taipei</option>
+						<option value="Tainan">Tainan</option>
+						<option value="Taichung">Taichung</option>
+						<option value="Taoyuan">Taoyuan</option>
+					</select>
+				</th>
+				<th>Birthday:
+					<input type="date" id="Birthday" name="Birthday" value="Birthday" min="1960-01-01" max="2024-11-08">
+				</th>
+			</tr>
+			<tr>
+				<th colspan="2">E-mail:<input type="mail" name="email" value="email" size="25" maxlength="30"></th>
+			</tr>
+			<tr>
+				<th>Hobby</th>
+				<th colspan="2">
+					<input type="checkbox" name="hobby" value="hobby">Swimming
+					<input type="checkbox" name="hobby" value="hobby">Vollyball
+					<input type="checkbox" name="hobby" value="hobby">Movie
+					<input type="checkbox" name="hobby" value="hobby">Game
+					<input type="checkbox" name="hobby" value="hobby">sleep
+				</th>
+				</tr>
+			<tr>
+				<th>Skill</th>
+				<th colspan="2">
+					<input type="checkbox" name="skill" value="skill">Java
+					<input type="checkbox" name="skill" value="skill">HTML
+					<input type="checkbox" name="skill" value="skill">Python
+					<input type="checkbox" name="skill" value="skill">Microsoft Office
+					<input type="checkbox" name="skill" value="skill">Premiere
+				</th>
+			</tr>
+			<tr>
+				<th>Say Somthing</th>
+				<th colspan="2">
+					<textarea rows="5" cols="60" placeholder="Say somthing here.">	</textarea>
+				</th>
+			</tr>
+			<tr>
+				<th colspan="3" style="text-align: left;">
+					<input type="submit" name="submit">
+					<input type="reset" name="reset">
+				</th>
+			</tr>
 
 
 
 
 
-
-	</table>
+		</table>
+	</form>
 </body>
 </html>
